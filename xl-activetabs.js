@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('xml-activetabs', [])
-    .directive('detectActiveTab', ['$location',
+angular.module('xl-activetabs', [])
+    .directive('xlDetectActiveTab', ['$location',
         function($location) {
             return {
                 link: function postLink(scope, element, attrs) {
@@ -35,8 +35,8 @@ angular.module('xml-activetabs', [])
         }
     ]);
 
-angular.module('xml-activetabs')
-    .directive('findActiveTab', ['$location',
+angular.module('xl-activetabs')
+    .directive('xlFindActiveTab', ['$location',
         function($location) {
             return {
                 link: function postLink(scope, element, attrs) {
