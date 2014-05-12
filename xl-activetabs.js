@@ -43,7 +43,7 @@ angular.module('xl-activetabs')
                     scope.$on("$routeChangeSuccess", function(event, current, previous) {
                         /*  designed for full re-usability at any path, any level, by using data from attrs
                             declare like this: 
-                              <nav show-active-tab="1"> 
+                              <nav find-active-tab="1"> 
                                 <a href="#/home">HOME</a>
                               </nav> 
 
